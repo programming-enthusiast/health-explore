@@ -1,5 +1,14 @@
 # fullstack-candidate-testing
 
+## Project Setup
+`$ yarn install`
+
+`$ yarn dev`
+
+## Test
+`$ yarn test`
+
+
 ## Instructions
 
 

@@ -1,3 +1,4 @@
+import React from "react"
 
 const Avatar = ({ name, number }) => {
   const firstName = name.split(' ')[0]

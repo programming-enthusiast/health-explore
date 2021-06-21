@@ -1,3 +1,4 @@
+import React from "react"
 import '../assets/styles/global.css'
 import Layout from "../components/Layout"
 import NextNprogress from "nextjs-progressbar"

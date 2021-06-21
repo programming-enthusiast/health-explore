@@ -1,3 +1,5 @@
+import React from "react"
+
 const SortByItem = ({ sortOption, state, onChange }) => {
 
   const handleClick = () => {

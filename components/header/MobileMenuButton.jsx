@@ -1,4 +1,3 @@
-
 import React, { useState } from "react"
 
 const MobileMenuButton = ({ isMobileMenuOpen, toggleMobileMenu }) => {
