@@ -1,5 +1,5 @@
 import React, { useContext } from "react"
-import SortByItem from "./SoryByItem"
+import SortByItem from "./SortByItem"
 import SortByContext, { SortByProvider } from "../contexts/SortByContext"
 
 const sortingOptions = [
@@ -29,7 +29,7 @@ const SoryByBar = () => {
       {
         sortingOptions.map((option, index) => {
           return (
-            <SortByItem sortOption={option} state={sortByContext[option]} onChange={(state) => handleSortyByItemChange(option, state)} />
+            <SortByItem sortOption={option} state={sortByContext[option]} onChange={(state) => handleSortyByItemChange(option, state)} key={index} />
           )
         })
       }
